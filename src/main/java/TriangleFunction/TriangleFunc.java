@@ -25,7 +25,7 @@ public class TriangleFunc {
         double square;
 
         if (a <= 0 || b <= 0 || c <= 0) {
-            System.out.println("Triangle side cannot be zero");
+            System.out.println("Triangle side should be larger than 0");
             throw new Exception();
         } else {
             if (a + b <= c || a + c <= b || b + c <= a) {
