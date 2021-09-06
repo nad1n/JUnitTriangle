@@ -26,7 +26,7 @@ public class TriangleFunc {
             System.out.println("Triangle side cannot be zero");
             throw new Exception();
         } else {
-            if (a + b >= c || a + c >= b || b + c >= a) {
+            if (a + b <= c || a + c <= b || b + c <= a) {
                 System.out.println("One side is equal or greater than the sum of the other two");
                 throw new Exception();
             } else {
