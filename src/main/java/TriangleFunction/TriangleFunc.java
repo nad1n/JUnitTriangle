@@ -6,17 +6,12 @@ public class TriangleFunc {
         triangleArea(3, 3, 3);
         triangleArea(3, 4, 5);
         triangleArea(6, 5, 5);
-        triangleArea(5, 6, 11);
-        triangleArea(9, 9, 0);
     }
     public static boolean test(int args ) throws Exception {
 
         triangleArea(3, 3, 3);
         triangleArea(3, 4, 5);
         triangleArea(6, 5, 5);
-        triangleArea(5, 6, 11);
-        triangleArea(9, 9, 0);
-
         return false;
     }
 
@@ -39,6 +34,4 @@ public class TriangleFunc {
         }
         return square;
     }
-
-
 }
